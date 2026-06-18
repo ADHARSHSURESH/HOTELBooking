@@ -74,7 +74,7 @@ function Booking() {
 
     const fakeTransactionId = "TXN" + Date.now();
 
-    const res = await fetch("http://localhost:5000/api/bookings", {
+    const res = await fetch("https://hotelbooking-v5e4.onrender.com/api/bookings", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
