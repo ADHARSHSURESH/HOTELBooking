@@ -6,7 +6,7 @@ function AdminDashboard() {
   const navigate = useNavigate();
 
   const getBookings = async () => {
-    const res = await fetch("http://localhost:5000/api/bookings");
+    const res = await fetch("https://hotelbooking-v5e4.onrender.com/api/bookings");
     const data = await res.json();
     setBookings(data);
   };
