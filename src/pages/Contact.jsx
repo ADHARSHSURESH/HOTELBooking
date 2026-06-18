@@ -19,7 +19,7 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("https://hotelbooking-v5e4.onrender.com/api/bookings", {
+    const res = await fetch("https://hotelbooking-v5e4.onrender.com/api/contacts", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
